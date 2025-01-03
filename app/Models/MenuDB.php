@@ -8,7 +8,7 @@ class MenuDB extends Model
 {
     protected $table = 'tabel_menu';
     protected $primaryKey = 'id_menu';
-    protected $allowedFields = ['nama', 'email', 'password', 'role'];
+    protected $allowedFields = ['nama_menu', 'harga', 'foto_menu'];
 
     // Fungsi untuk mendapatkan data user berdasarkan email
 
